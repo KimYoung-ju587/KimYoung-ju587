@@ -4,11 +4,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.icia</groupId>
-	<artifactId>cma</artifactId>
-	<name>Cinema</name>
+	<artifactId>mb</artifactId>
+	<name>MemBoard</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
-	<!-- 여기부터 복사 -->
+
+
 	<properties>
 		<java-version>11</java-version>
 		<org.springframework-version>3.1.1.RELEASE</org.springframework-version>
@@ -184,14 +185,13 @@
 			<version>2.9.1</version>
 		</dependency>
 
-		<!-- 파일 업로드 -->
+
 		<!-- https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload -->
 		<dependency>
 			<groupId>commons-fileupload</groupId>
 			<artifactId>commons-fileupload</artifactId>
 			<version>1.5</version>
 		</dependency>
-
 		<!-- 롬복 -->
 		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 		<dependency>
@@ -201,7 +201,7 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<!-- Ajax, JSON -->
+		<!-- Ajax,JSON -->
 		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
@@ -237,15 +237,6 @@
 			<artifactId>spring-security-web</artifactId>
 			<version>5.7.5</version>
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
-		<dependency>
-			<groupId>org.jsoup</groupId>
-			<artifactId>jsoup</artifactId>
-			<version>1.15.3</version>
-		</dependency>
-
-
 
 
 	</dependencies>
@@ -289,4 +280,3 @@
 		</plugins>
 	</build>
 </project>
-	
